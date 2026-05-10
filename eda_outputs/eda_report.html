@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Real Estate EDA Report</title>
+  <style>
+    body { font-family: system-ui, sans-serif; background:#F9FAFB; color:#111827; margin:0; padding:24px; }
+    h1   { text-align:center; color:#1E3A5F; margin-bottom:4px; }
+    p.sub{ text-align:center; color:#6B7280; margin-top:0; margin-bottom:32px; }
+    .grid{ display:grid; grid-template-columns: repeat(auto-fill, minmax(520px,1fr)); gap:24px; }
+    .card{ background:#fff; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,.08);
+            padding:20px; }
+    .card h3 { margin:8px 0 12px; font-size:15px; }
+    .card img { width:100%; border-radius:8px; }
+    .badge { display:inline-block; font-size:11px; font-weight:600; color:#fff;
+              padding:2px 10px; border-radius:99px; margin-bottom:4px; }
+  </style>
+</head>
+<body>
+  <h1>🏠 Real Estate Investment Advisor — EDA Report</h1>
+  <p class="sub">20 Exploratory Data Analysis questions • india_housing_prices dataset</p>
+  <div class="grid">
+        <div class="card">
+          <span class="badge" style="background:#2563EB">Price & Size</span>
+          <h3>Q01 · Distribution of property prices</h3>
+          <img src="Q01_price_distribution.png" alt="Q01">
+        </div>
+        <div class="card">
+          <span class="badge" style="background:#2563EB">Price & Size</span>
+          <h3>Q02 · Distribution of property sizes</h3>
+          <img src="Q02_size_distribution.png" alt="Q02">
+        </div>
+        <div class="card">
+          <span class="badge" style="background:#2563EB">Price & Size</span>
+          <h3>Q03 · Price per SqFt by property type</h3>
+          <img src="Q03_price_per_sqft_by_type.png" alt="Q03">
+        </div>
+        <div class="card">
+          <span class="badge" style="background:#2563EB">Price & Size</span>
+          <h3>Q04 · Relationship between size and price</h3>
+          <img src="Q04_size_vs_price.png" alt="Q04">
+        </div>
+        <div class="card">
+          <span class="badge" style="background:#2563EB">Price & Size</span>
+          <h3>Q05 · Outliers in price per SqFt and size</h3>
+          <img src="Q05_outliers.png" alt="Q05">
+        </div>
+        <div class="card">
+          <span class="badge" style="background:#7C3AED">Location</span>
+          <h3>Q06 · Avg price per SqFt by state</h3>
+          <img src="Q06_avg_price_by_state.png" alt="Q06">
+        </div>
+        <div class="card">
+          <span class="badge" style="background:#7C3AED">Location</span>
+          <h3>Q07 · Avg property price by city</h3>
+          <img src="Q07_avg_price_by_city.png" alt="Q07">
+        </div>
+        <div class="card">
+          <span class="badge" style="background:#7C3AED">Location</span>
+          <h3>Q08 · Median age of properties by locality</h3>
+          <img src="Q08_median_age_by_locality.png" alt="Q08">
+        </div>
+        <div class="card">
+          <span class="badge" style="background:#7C3AED">Location</span>
+          <h3>Q09 · BHK distribution across cities</h3>
+          <img src="Q09_bhk_by_city.png" alt="Q09">
+        </div>
+        <div class="card">
+          <span class="badge" style="background:#7C3AED">Location</span>
+          <h3>Q10 · Price trends — top 5 expensive localities</h3>
+          <img src="Q10_top5_locality_trends.png" alt="Q10">
+        </div>
+        <div class="card">
+          <span class="badge" style="background:#0F766E">Correlation</span>
+          <h3>Q11 · Numeric feature correlation heatmap</h3>
+          <img src="Q11_correlation_heatmap.png" alt="Q11">
+        </div>
+        <div class="card">
+          <span class="badge" style="background:#0F766E">Correlation</span>
+          <h3>Q12 · Nearby schools → price per SqFt</h3>
+          <img src="Q12_schools_vs_price.png" alt="Q12">
+        </div>
+        <div class="card">
+          <span class="badge" style="background:#0F766E">Correlation</span>
+          <h3>Q13 · Nearby hospitals → price per SqFt</h3>
+          <img src="Q13_hospitals_vs_price.png" alt="Q13">
+        </div>
+        <div class="card">
+          <span class="badge" style="background:#0F766E">Correlation</span>
+          <h3>Q14 · Price by furnished status</h3>
+          <img src="Q14_price_by_furnished.png" alt="Q14">
+        </div>
+        <div class="card">
+          <span class="badge" style="background:#0F766E">Correlation</span>
+          <h3>Q15 · Price per SqFt by facing direction</h3>
+          <img src="Q15_price_by_facing.png" alt="Q15">
+        </div>
+        <div class="card">
+          <span class="badge" style="background:#B45309">Investment</span>
+          <h3>Q16 · Properties by owner type</h3>
+          <img src="Q16_owner_type_distribution.png" alt="Q16">
+        </div>
+        <div class="card">
+          <span class="badge" style="background:#B45309">Investment</span>
+          <h3>Q17 · Properties by availability status</h3>
+          <img src="Q17_availability_status.png" alt="Q17">
+        </div>
+        <div class="card">
+          <span class="badge" style="background:#B45309">Investment</span>
+          <h3>Q18 · Parking space → property price</h3>
+          <img src="Q18_parking_vs_price.png" alt="Q18">
+        </div>
+        <div class="card">
+          <span class="badge" style="background:#B45309">Investment</span>
+          <h3>Q19 · Amenities → price per SqFt</h3>
+          <img src="Q19_amenities_vs_price.png" alt="Q19">
+        </div>
+        <div class="card">
+          <span class="badge" style="background:#B45309">Investment</span>
+          <h3>Q20 · Public transport → price & investment</h3>
+          <img src="Q20_transport_vs_investment.png" alt="Q20">
+        </div></div>
+</body>
+</html>

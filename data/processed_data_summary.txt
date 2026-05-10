@@ -1,0 +1,68 @@
+=== Processed Dataset Summary ===
+
+Shape : (250000, 52)
+
+Dtypes:
+ID                                          int64
+State                                      object
+City                                       object
+Locality                                   object
+Property_Type                              object
+BHK                                         int64
+Size_in_SqFt                              float64
+Price_in_Lakhs                            float64
+Price_per_SqFt                            float64
+Year_Built                                  int64
+Furnished_Status                           object
+Floor_No                                    int64
+Total_Floors                                int64
+Age_of_Property                           float64
+Nearby_Schools                            float64
+Nearby_Hospitals                          float64
+Public_Transport_Accessibility             object
+Parking_Space                             float64
+Security                                    int64
+Amenities                                  object
+Facing                                     object
+Owner_Type                                 object
+Availability_Status                        object
+Floor_Ratio                               float64
+School_Density_Score                      float64
+Hospital_Density_Score                    float64
+Transport_Score                             int64
+Infrastructure_Score                      float64
+Amenity_Count                             float64
+Is_New_Property                             int64
+Has_Premium_Security                        int64
+Is_Fully_Furnished                          int64
+Good_Investment                             int64
+Future_Price_5yr                          float64
+State_enc                                   int64
+City_enc                                    int64
+Locality_enc                                int64
+Property_Type_Apartment                      bool
+Property_Type_Independent House              bool
+Property_Type_Villa                          bool
+Furnished_Status_Furnished                   bool
+Furnished_Status_Semi-furnished              bool
+Furnished_Status_Unfurnished                 bool
+Facing_East                                  bool
+Facing_North                                 bool
+Facing_South                                 bool
+Facing_West                                  bool
+Owner_Type_Broker                            bool
+Owner_Type_Builder                           bool
+Owner_Type_Owner                             bool
+Availability_Status_Ready_to_Move            bool
+Availability_Status_Under_Construction       bool
+
+Descriptive Stats:
+                  ID            BHK   Size_in_SqFt  Price_in_Lakhs  Price_per_SqFt     Year_Built       Floor_No   Total_Floors  Age_of_Property  Nearby_Schools  Nearby_Hospitals  Parking_Space       Security    Floor_Ratio  School_Density_Score  Hospital_Density_Score  Transport_Score  Infrastructure_Score  Amenity_Count  Is_New_Property  Has_Premium_Security  Is_Fully_Furnished  Good_Investment  Future_Price_5yr      State_enc       City_enc   Locality_enc
+count  250000.000000  250000.000000  250000.000000   250000.000000   250000.000000  250000.000000  250000.000000  250000.000000    250000.000000   250000.000000     250000.000000  250000.000000  250000.000000  250000.000000         250000.000000           250000.000000    250000.000000         250000.000000  250000.000000    250000.000000              250000.0            250000.0    250000.000000     250000.000000  250000.000000  250000.000000  250000.000000
+mean   125000.500000       2.999396       0.499958      254.586854        0.129885    2006.520012      14.966800      15.503004         0.499394        0.499984          0.499780       0.498176       0.500932       0.066512              0.499984                0.499780         2.001672              0.500207       0.500072         0.118264                   0.0                 0.0         0.605784        376.401842       9.516524      20.284840     249.515160
+std     72168.927986       1.415521       0.289024      141.349921        0.132066       9.808575       8.948047       8.671618         0.297230        0.319849          0.319096       0.499998       0.500000       0.117296              0.319849                0.319096         0.817293              0.198275       0.353571         0.322921                   0.0                 0.0         0.488683        208.999194       5.767697      12.193286     144.484847
+min         1.000000       1.000000       0.000000       10.000000        0.000000    1990.000000       0.000000       1.000000         0.000000        0.000000          0.000000       0.000000       0.000000       0.000000              0.000000                0.000000         1.000000              0.000000       0.000000         0.000000                   0.0                 0.0         0.000000         14.690000       0.000000       0.000000       0.000000
+25%     62500.750000       2.000000       0.249556      132.550000        0.046480    1998.000000       7.000000       8.000000         0.242424        0.222222          0.222222       0.000000       0.000000       0.015567              0.222222                0.222222         1.000000              0.364816       0.250000         0.000000                   0.0                 0.0         0.000000        195.910000       5.000000      10.000000     124.000000
+50%    125000.500000       3.000000       0.499333      253.870000        0.091357    2007.000000      15.000000      15.000000         0.484848        0.444444          0.444444       0.000000       1.000000       0.032133              0.444444                0.444444         2.000000              0.500203       0.500000         0.000000                   0.0                 0.0         1.000000        375.385000      10.000000      20.000000     249.000000
+75%    187500.250000       4.000000       0.749778      376.880000        0.159479    2015.000000      23.000000      23.000000         0.757576        0.777778          0.777778       1.000000       1.000000       0.062967              0.777778                0.777778         3.000000              0.635184       0.750000         0.000000                   0.0                 0.0         1.000000        557.230000      15.000000      31.000000     375.000000
+max    250000.000000       5.000000       1.000000      500.000000        1.000000    2023.000000      30.000000      30.000000         1.000000        1.000000          1.000000       1.000000       1.000000       1.000000              1.000000                1.000000         3.000000              1.000000       1.000000         1.000000                   0.0                 0.0         1.000000        744.660000      19.000000      41.000000     499.000000
